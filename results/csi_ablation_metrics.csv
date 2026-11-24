@@ -1,0 +1,3 @@
+ablation,d_32_nmse_db,d_16_nmse_db,d_8_nmse_db
+2D-DFT Angular 2D-CNN,-12.7734,-9.7993,-7.267
+Geographic East Holdout (d=16),,-5.7559,-5.5422

@@ -1,0 +1,18 @@
+<scene version="2.1.0">
+    <!-- ITU-R P.2040 Standard Radio Materials for Bologna Historic Center -->
+    <bsdf type="itu-radio-material" id="itu_brick">
+        <string name="type" value="brick"/>
+        <float name="thickness" value="0.25"/>
+    </bsdf>
+
+    <bsdf type="itu-radio-material" id="itu_concrete">
+        <string name="type" value="concrete"/>
+        <float name="thickness" value="0.20"/>
+    </bsdf>
+
+    <shape type="ply" id="bologna_urban_mesh">
+        <string name="filename" value="meshes/bologna_scene.ply"/>
+        <boolean name="face_normals" value="true"/>
+        <ref id="itu_brick" name="bsdf"/>
+    </shape>
+</scene>

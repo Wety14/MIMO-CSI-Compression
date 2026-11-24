@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Environments and local tooling
+.venv/
+venv/
+.idea/
+.DS_Store
+
+# Jupyter and temporary files
+.ipynb_checkpoints/
+*.bak
+
+# Regenerated live outputs (archived results are kept in results/)
+/results/live/
